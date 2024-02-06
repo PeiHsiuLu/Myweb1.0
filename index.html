@@ -156,15 +156,24 @@
     </div>
   </header>
 
-  <div class="nav-scroller py-1 mb-3 border-bottom">
+  <div center class="nav-scroller py-1 mb-3 border-bottom">
     <nav class="nav nav-underline justify-content-between">
-      <a class="nav-item nav-link link-body-emphasis" href="#">About me</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Study Course</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Experience</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Future Plan</a>
+      <button class="nav-item nav-link link-button" onclick="aboutMe()">About me</button>
+      <button class="nav-item nav-link link-button" onclick="studyCourse()">Study Course</button>
+      <button class="nav-item nav-link link-button" onclick="experience()">Experience</button>
+      <button class="nav-item nav-link link-button" onclick="futurePlan()">Future Plan</button>
+      <button class="nav-item nav-link link-button" onclick="Clock()">Clock</button>
     </nav>
   </div>
-</div>
+
+  <script>
+    function Clock() {
+      // 在這裡添加有關"clock"按鈕的操作
+      window.location.href = "https://peihsiulu.github.io/Homework3-1/"; // 這將導航到相應的URL
+    }
+
+  </script>
+  
 
 <main class="container">
   <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
